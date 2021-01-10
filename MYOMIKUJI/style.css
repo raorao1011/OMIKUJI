@@ -1,0 +1,28 @@
+body{
+    background: #efefef;
+}
+
+#button{
+    width: 200px;
+    height: 200px;
+    background: #ef454a;
+    border-radius: 50%; /*円を作るときに使う*/
+    margin: 30px auto;  /*上下30px, 左右autoで真ん中*/
+    text-align: center; /*中央揃え*/
+    line-height: 200px; /*主に行間を設定するのに使用される*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    cursor: pointer;    /*乗っかったら指のマークになる*/
+    box-shadow: 0  10px 0 #d1483e;/*水平方向の距離 垂直方向の距離 広がり距離 影の色 */
+    user-select: none; /*連打したときに文字が選択されないようになっている*/
+}
+
+#button:hover{
+    opacity: 0.9; /*透明度*/
+}
+
+#button:active{
+    box-shadow: 0 5px 0 d1483e;
+    margin-top: 35px;
+}
