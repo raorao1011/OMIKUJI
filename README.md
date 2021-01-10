@@ -1,0 +1,3 @@
+# OMIKUJI
+
+first programming
